@@ -1,0 +1,76 @@
+.f3 {
+    .flex {
+        display: flex;
+    }
+
+    hr {
+        margin: 0;
+    }
+
+    .foot-nav {
+        
+        h1 {
+            text-align: center;
+            /* display: inline; */
+            
+        }
+        p {
+            margin: -50px 0 20px 81%;
+        }
+
+    }
+
+    .middle, .right {
+        background-color: #233034;
+        color: white;
+    }
+
+    .left {
+        background-color: rgb(225, 225, 225);
+        
+        ul {
+            list-style: none;
+            text-align: center;
+            font-size: 20px;
+            padding: 10px;
+
+            li {
+                margin: 20px 0;
+            }
+        }
+    }
+
+    .middle {
+        .flex {
+            display: flex;
+            padding: 20px 40px;
+
+            h2 {
+                margin-block-start: auto;
+            }
+
+            hr {
+                margin: 20px;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    padding: 5px 0;
+
+                    p {
+                        margin: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .right {
+        h1 {
+            padding: 0 50px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.f2 {
+    .top {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        background-color: rgb(66, 202, 157);
+        padding: 20px;
+
+        h3 {
+            margin: 0;
+        }
+
+        .icons * {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+
+    .middle {
+        h2 {
+            text-decoration: underline;
+        }
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        padding: 10px 40px;
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+    }
+    .middle section:first-child {
+        width: 20%;
+    }
+
+
+    .bottom {
+        background-color: rgb(212, 212, 212);
+        text-align: center;
+        padding: 1px;
+        font-size: 17px;
+    }
+}
